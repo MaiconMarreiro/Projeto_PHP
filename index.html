@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Login</title>
+</head>
+<style>
+    .fs-1{
+        font-size: 170%;
+    }
+</style>
+<body class="bg-gradient-to-r from-slate-800 to-indigo-400">
+
+    <div class="grid grid-rows-1">
+        <div class="grid grid-cols-1 justify-items-center p-20">
+            <div class="w-96 h-96 justify-items-center rounded shadow-2xl bg-slate-300">
+            <p class="font-bold fs-1 mt-5">Login</p>
+            <form name="form-login" action="conexao.php" method="post" class="h-60 text-center">
+                <input type="text" name="" id="" placeholder="Nome" class="w-80 h-8 mt-10 bg-white rounded">
+                <input type="text" name="" id="" placeholder="Senha" class="w-80 h-8 mt-10 bg-white rounded">
+                <div class="grid grid-cols-2 justify-items-center mt-2">
+                <button class="w-20 mt-4 cursor-pointer bg-green-600 rounded font-medium">Entrar</button>
+                <button class="w-25 mt-4 cursor-pointer bg-red-500 rounded font-medium">Cadastrar</button>
+                </div>
+                <div class="grid grid-cols-3 justify-items-center mt-10">
+                <img class=" w-12 h-11 rounded cursor-pointer" src="https://wpdiscuz.com/wp-content/uploads/wpforo/attachments/125817/3813-NewLogo.png" alt="google-login">
+                <img class=" w-11 rounded cursor-pointer" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMzEkaAN0BJ2o3ri2IsQRKXVk6ejQQqz0GUg&s" alt="google-login">
+                <img class="w-12 h-11 cursor-pointer" src="https://i.pinimg.com/736x/67/5c/af/675cafde751be69ba38a16504cb93e39.jpg" alt="google-login">
+                </div>
+            </form>
+            </div>
+        </div>
+        
+    </div>
+    
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</body>
+</html>
